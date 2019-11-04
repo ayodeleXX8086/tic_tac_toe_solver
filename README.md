@@ -1,5 +1,7 @@
                     **Tic Tac Toe Solver**
-Use pip install -r requirements.txt to install all the dependencies
+Use pip install -r requirements.txt to install all the dependencies.
+
+This is a unbeatable tic tac toe application using min max algorithm.
 
 Run the application using this command python tic_tac_server.py
 
