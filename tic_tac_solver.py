@@ -119,7 +119,6 @@ def __get_children_board(board,computer):
     '''
     Based on the current state of the board, this function makes a valid move and
     returns the board with a move and the point of the move
-    complexity O(N^M) N is the number of legal moves such as the Nodes of the graph and M is the depth of the Graph
     :param board: is a 2 dimensional board
     :param computer: Boolean variable that shows if it is a computer it set to True, if not is set to False
     :return: returns the board move and points
@@ -145,6 +144,7 @@ def __min_max_solver(board,depth,points,computer):
     structure using a  DFS, for each move the computer will stimulates the user and computer playing different moves, it will then
     search for the path with the maximum possibility and the minimum possibilty of the user winning.
     For each node traversal there are three terminal states Such as (1) Computer winning, (-1) Computer lost, (0) A tie
+    complexity O(N^M) N is the number of legal moves such as the Nodes of the graph and M is the depth of the Graph
     :param board: 2d array
     :param depth: depth how far as the board gone
     :param points: calculated points
